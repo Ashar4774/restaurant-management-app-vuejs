@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Ashar",
+      "email": "ashar.muhammad74@gmail.com",
+      "password": "abc123"
+    },
+    {
+      "id": 1,
+      "name": "Ashar",
+      "email": "ashar@gmail.com",
+      "password": "Abc123"
+    },
+    {
+      "id": 2,
+      "email": "sajjawal@gmail.com",
+      "name": "Sajjawal",
+      "password": "asd123"
+    },
+    {
+      "id": 3,
+      "email": "doremon@gmail.com",
+      "name": "Doremon",
+      "password": "doremon123"
+    },
+    {
+      "id": 4,
+      "email": "abc@gmail.com",
+      "name": "abc",
+      "password": "abc"
+    },
+    {
+      "id": 5,
+      "email": "user1@gmail.com",
+      "name": "user1",
+      "password": "user1"
+    }
+  ]
+}
