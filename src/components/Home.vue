@@ -1,16 +1,21 @@
 <template>
+    <HeaderComponent />
     <h1>Home component</h1>
 </template>
 
 <script>
+import HeaderComponent from './Header.vue';
 export default {
-    name:'HomeComponent',
-    mounted(){
+    name: 'HomeComponent',
+    components:{
+        HeaderComponent
+    },
+    mounted() {
         let user = localStorage.getItem('user-info');
-        if(!user){
-            this.$router.push({name: "SignUp"})
+        if (!user) {
+            this.$router.push({ name: "SignUp" })
         } else {
-            this.$router.push({name: "Home"})
+            this.$router.push({ name: "Home" })
         }
     }
 }
