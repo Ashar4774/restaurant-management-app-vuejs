@@ -35,5 +35,31 @@
       "name": "user1",
       "password": "user1"
     }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurant1",
+      "address": "ExampleCountry, ExampleCity",
+      "contact": 111112,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Restaurant2",
+      "contact": 111111,
+      "address": "ExampleCountry, ExampleCity"
+    },
+    {
+      "id": 4,
+      "name": "KFC",
+      "address": "Jhelum",
+      "contact": 222222
+    },
+    {
+      "id": 5,
+      "name": "OPTP",
+      "address": "Jhelum",
+      "contact": 6686
+    }
   ]
 }

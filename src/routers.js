@@ -19,7 +19,7 @@ const routes = [
     {
         name: 'Edit',
         component: EditRestaurant,
-        path: '/edit-restaurant'
+        path: '/edit-restaurant/:id'
     },
     {
         name: 'SignUp',

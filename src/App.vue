@@ -22,7 +22,7 @@ body{
   margin: 0;
 }
 
-.register input, .login input{
+.register input, .login input, .restaurant input{
     height: 40px;
     width: 300px;
     display: block;
@@ -33,7 +33,7 @@ body{
     border: 1px solid skyblue;
 }
 
-.register button, .login button {
+.register button, .login button, .restaurant button {
     border-radius: 5px;
     background-color: skyblue;
     width: 320px;
